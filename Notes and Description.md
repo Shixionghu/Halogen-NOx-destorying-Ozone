@@ -34,7 +34,7 @@ So the surface coating area of organic aerosol could affect its heterogeneous re
 -	N2O5 + Soot (carma/base/oxidgas.F90)		        (aerosol uptake)
 -	NO2 + Soot (carma/base/oxidgas.F90) 		        (aerosol uptake)
 -	Add N2O4, HONO as a new species.
--	Dry/Wet removal of N2O5, N2O4, HONO
+-	Dry/Wet removal of N2O5, N2O4, HONO(probably need to change the in the sourcecode..., the way that they are trying to calculate probably will not recognize them)  
 -	N + O3 --> NO+O2					           (Standard NOx)
 -	NO2 + H --> OH + NO				           (Standard NOx)
 -	NO + OH + M --> HNO2 + M			          (Standard NOx)
